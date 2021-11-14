@@ -52,11 +52,16 @@ print(frase)
 listastring = ["Programação", "em", "Python"]
 listastring = ' '.join(listastring)
 
+#Ver index de um elemento OBS: Primeiro elemento encontrado
+print(lista.index(3))
 
+#Slicing
+# Lista/range[inicio:fim:passo]
 
-
-
-
-
+print(sum(lista))   #Soma
+print(max(lista))   #Valor maximo
+print(min(lista))   #Valor minimo
+print(len(lista))   #Tamanho da lista
 
 print(lista)
+print(listastring)
