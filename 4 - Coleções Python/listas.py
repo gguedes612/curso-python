@@ -47,8 +47,10 @@ frase = "meu nome"
 frase = frase.split()
 print(frase)
 
+#Convertendo uma lista em uma string
 
-
+listastring = ["Programação", "em", "Python"]
+listastring = ' '.join(listastring)
 
 
 
