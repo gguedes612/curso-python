@@ -46,7 +46,7 @@ class Conta:
     def pix(self,valor,conta_destino):
         self.__saldo -= valor
         conta_destino.__saldo += valor
-        print('Transferencia concluida.'')
+        print('Transferencia concluida.')
 
 
 conta1 = Conta('Guilherme',1500,1000)
