@@ -37,20 +37,3 @@ class Elevador():
             self.__andar_atual -= 1
             print(f'Andar Atual {self.__andar_atual}')
 
-elevador = Elevador(5,5)
-
-elevador.entra(6)
-elevador.entra(3)
-elevador.sai()
-elevador.sai()
-elevador.sai()
-elevador.sai()
-elevador.desce()
-elevador.sobe()
-elevador.sobe()
-elevador.sobe()
-elevador.sobe()
-elevador.sobe()
-elevador.sobe()
-elevador.sobe()
-elevador.sobe()
